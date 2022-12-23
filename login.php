@@ -107,7 +107,7 @@ if(isset($_SESSION['usuario']))
     <br>
 
     <a href="#">Olvidé mi contraseña</a><br>
-    <a href="registro.php" class="text-center">Registrarme en REDSOCIAL</a>
+    <a href="registro.php" class="text-center">Registrarme en PETPORTAL</a>
 
   </div>
   <!-- /.login-box-body -->
