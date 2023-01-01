@@ -20,7 +20,7 @@ function Headerb ()
     <!-- Logo -->
     <a href="index.php" class="logo">
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>RED</b>SOCIAL</span>
+      <span class="logo-lg"><b>PET</b>PORTAL</span>
     </a>
 
     <!-- Header Navbar: style can be found in header.less -->

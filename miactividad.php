@@ -75,7 +75,7 @@ $aid = mysqli_real_escape_string($connect,$_GET['id']);
             <div class="box-header with-border">
               <div class="user-block">
                 <img class="img-circle" src="avatars/<?php echo $use['avatar']; ?>" alt="User Image">
-                <span class="description" onclick="location.href='perfil.php?id=<?php echo $use['id_use'];?>';" style="cursor:pointer; color: #3C8DBC;""><?php echo $use['usuario'];?></span>
+                <span class="description" onclick="location.href='perfil.php?id=<?php echo $use['id_use'];?>';" style="cursor:pointer; color: #ebee2b;""><?php echo $use['usuario'];?></span>
                 <span class="description"><?php echo $lista['fecha'];?></span>
               </div>
               <!-- /.user-block -->
@@ -155,7 +155,7 @@ $aid = mysqli_real_escape_string($connect,$_GET['id']);
 
               <?php if ($numcomen > 2) { ?> 
               <br>
-                <center><span onclick="location.href='publicacion.php?id=<?php echo $lista['id_pub'];?>';" style="cursor:pointer; color: #3C8DBC;">Ver todos los comentarios</span></center>
+                <center><span onclick="location.href='publicacion.php?id=<?php echo $lista['id_pub'];?>';" style="cursor:pointer; color:#e6e925;">Ver todos los comentarios</span></center>
               <?php } ?>
 
               <div id="nuevocomentario<?php  echo $lista['id_pub'];?>"></div>

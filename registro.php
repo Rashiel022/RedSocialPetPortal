@@ -38,11 +38,11 @@ if(isset($_SESSION['usuario']))
 <body class="hold-transition register-page">
 <div class="register-box">
   <div class="register-logo">
-    <a href=""><b>RED</b>SOCIAL</a>
+    <a href=""><b>PET</b>PORTAL</a>
   </div>
 
   <div class="register-box-body">
-    <p class="login-box-msg">Regístrate en REDSOCIAL</p>
+    <p class="login-box-msg">Regístrate en PET PORTAL</p>
 
     <form action="" method="post">
       <div class="form-group has-feedback">
