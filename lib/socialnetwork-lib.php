@@ -14,18 +14,18 @@ function Headerb ()
 
 {
 ?>
-<!-- START HEADER -->
+<!-- COMIENZO DE HEADER -->
 <header class="main-header">
 
     <!-- Logo -->
     <a href="index.php" class="logo">
-      <!-- logo for regular state and mobile devices -->
+      <!-- logo para celulares -->
       <span class="logo-lg"><b>PET</b>PORTAL</span>
     </a>
 
-    <!-- Header Navbar: style can be found in header.less -->
+    <!-- Header Navbar: El estilo se puede encontrar en header.less -->
     <nav class="navbar navbar-static-top">
-      <!-- Navbar Right Menu -->
+      <!-- Menu derecho de la barra de navegación -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
 
@@ -35,7 +35,7 @@ function Headerb ()
           $cuantas = mysqli_num_rows($noti);
           ?>
 
-          <!-- Notifications: style can be found in dropdown.less -->
+          <!-- Notificationes: EL estilo se puede encontrar en dropdown.less -->
           <li class="dropdown notifications-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-bell-o"></i>
@@ -44,7 +44,7 @@ function Headerb ()
             <ul class="dropdown-menu">
               <li class="header">Tu tienes <?php echo $cuantas; ?> notifiaciones</li>
               <li>
-                <!-- inner menu: contains the actual data -->
+                <!-- Menu interno: Contiene los datos reales -->
                 <ul class="menu">
 
                 <?php                
@@ -70,7 +70,7 @@ function Headerb ()
 
           
 
-          <!-- User Account: style can be found in dropdown.less -->
+          <!-- Cuenta de usuario: el estilo se puede encontrar en dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="avatars/<?php echo $_SESSION['avatar']; ?>" class="user-image" alt="User Image">
@@ -109,7 +109,7 @@ function Headerb ()
               </li>
             </ul>
           </li>
-          <!-- Control Sidebar Toggle Button -->
+          <!-- Boton de alternancia de la barra lateral del control -->
           <li>
             <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
           </li>
@@ -128,8 +128,8 @@ function Side ()
 
 {
 ?>
-<!-- START LEFT SIDE -->
-<!-- Left side column. contains the logo and sidebar -->
+<!-- COMENZAMOS EL LADO IZQUIERDO-->
+<!-- Columna lateral izquierda. contiene el logo y la barra lateral   -->
   <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
