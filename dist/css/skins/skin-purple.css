@@ -59,7 +59,7 @@
 .skin-purple .wrapper,
 .skin-purple .main-sidebar,
 .skin-purple .left-side {
-  background-color: #222d32;
+  background-color: #d9c721;
 }
 .skin-purple .user-panel > .info,
 .skin-purple .user-panel > .info > a {
@@ -67,7 +67,7 @@
 }
 .skin-purple .sidebar-menu > li.header {
   color: #4b646f;
-  background: #1a2226;
+  background: #342f08;
 }
 .skin-purple .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -83,7 +83,7 @@
   background: #2c3b41;
 }
 .skin-purple .sidebar a {
-  color: #b8c7ce;
+  color: #ffffff;
 }
 .skin-purple .sidebar a:hover {
   text-decoration: none;

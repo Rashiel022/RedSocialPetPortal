@@ -59,7 +59,7 @@
 .skin-yellow .wrapper,
 .skin-yellow .main-sidebar,
 .skin-yellow .left-side {
-  background-color: #222d32;
+  background-color: #d9c721;
 }
 .skin-yellow .user-panel > .info,
 .skin-yellow .user-panel > .info > a {
@@ -67,7 +67,7 @@
 }
 .skin-yellow .sidebar-menu > li.header {
   color: #4b646f;
-  background: #1a2226;
+  background: #342f08;
 }
 .skin-yellow .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -83,7 +83,7 @@
   background: #2c3b41;
 }
 .skin-yellow .sidebar a {
-  color: #b8c7ce;
+  color: #ffffff;
 }
 .skin-yellow .sidebar a:hover {
   text-decoration: none;
