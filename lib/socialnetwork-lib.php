@@ -73,13 +73,13 @@ function Headerb ()
           <!-- Cuenta de usuario: el estilo se puede encontrar en dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="avatars/<?php echo $_SESSION['avatar']; ?>" class="user-image" alt="User Image">
+              <img src="avatars/8.jpg" class="user-image" alt="User Image">
               <span class="hidden-xs"><?php echo ucwords($_SESSION['usuario']); ?></span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="avatars/<?php echo $_SESSION['avatar']; ?>" class="img-circle" alt="User Image">
+                <img src="avatars/8.jpg" class="img-circle" alt="User Image">
 
                 <p>
                   <?php echo ucwords($_SESSION['usuario']); ?>
@@ -131,12 +131,12 @@ function Side ()
 <!-- COMENZAMOS EL LADO IZQUIERDO-->
 <!-- Columna lateral izquierda. contiene el logo y la barra lateral   -->
   <aside class="main-sidebar">
-    <!-- sidebar: style can be found in sidebar.less -->
+    <!-- barra lateral: el estilo se puede encontrar en sidebar.less -->
     <section class="sidebar">
-      <!-- Sidebar user panel -->
+      <!-- Panel de usuario de la barra lateral -->
       <div class="user-panel">
         <div class="pull-left">
-          <img src="avatars/<?php echo $_SESSION['avatar']; ?>" width="50" alt="User Image">
+          <img src="avatars/8.jpg" width="50" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p><?php echo ucwords($_SESSION['usuario']); ?></p>
