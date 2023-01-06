@@ -155,7 +155,7 @@ $aid = mysqli_real_escape_string($connect,$_GET['id']);
 
               <?php if ($numcomen > 2) { ?> 
               <br>
-                <center><span onclick="location.href='publicacion.php?id=<?php echo $lista['id_pub'];?>';" style="cursor:pointer; color:#e6e925;">Ver todos los comentarios</span></center>
+                <center><span onclick="location.href='publicacion.php?id=<?php echo $lista['id_pub'];?>';" style="cursor:pointer; color:#d9c721;">Ver todos los comentarios</span></center>
               <?php } ?>
 
               <div id="nuevocomentario<?php  echo $lista['id_pub'];?>"></div>
