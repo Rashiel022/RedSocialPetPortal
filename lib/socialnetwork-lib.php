@@ -189,9 +189,9 @@ function Side ()
         </li>
       </ul>
     </section>
-    <!-- /.sidebar -->
+    <!-- /-->
   </aside>
-<!-- END LEFT SIDE -->
+<!-- END -->
 <?php
 }
 ?>

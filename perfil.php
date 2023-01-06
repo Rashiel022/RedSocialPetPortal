@@ -82,17 +82,17 @@ if(!isset($_SESSION['usuario']))
               <center><span class="glyphicon glyphicon-ok"></span></center>
               <?php } ?>
 
-              <p class="text-muted text-center">Software Engineer</p>
+              <p class="text-muted text-center">Ingeniero de Sistemas</p>
 
               <ul class="list-group list-group-unbordered">
                 <li class="list-group-item">
-                  <b>Followers</b> <a class="pull-right">1,322</a>
+                  <b>Seguidores</b> <a class="pull-right">1,322</a>
                 </li>
                 <li class="list-group-item">
-                  <b>Following</b> <a class="pull-right">543</a>
+                  <b>Sigues</b> <a class="pull-right">543</a>
                 </li>
                 <li class="list-group-item">
-                  <b>Friends</b> <a class="pull-right">13,287</a>
+                  <b>Amigos</b> <a class="pull-right">13,287</a>
                 </li>
               </ul>
               
@@ -154,39 +154,39 @@ if(!isset($_SESSION['usuario']))
           <!-- About Me Box -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">About Me</h3>
+              <h3 class="box-title">Acerca de mí</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <strong><i class="fa fa-book margin-r-5"></i> Education</strong>
+              <strong><i class="fa fa-book margin-r-5"></i> Estudios</strong>
 
               <p class="text-muted">
-                B.S. in Computer Science from the University of Tennessee at Knoxville
+                Estudiante de Ingenieria de Sistemas en la Universidad Nacional del Altiplano de Puno
               </p>
 
               <hr>
 
-              <strong><i class="fa fa-map-marker margin-r-5"></i> Location</strong>
+              <strong><i class="fa fa-map-marker margin-r-5"></i> Ciudad</strong>
 
-              <p class="text-muted">Malibu, California</p>
+              <p class="text-muted">Puno, Perú</p>
 
               <hr>
 
-              <strong><i class="fa fa-pencil margin-r-5"></i> Skills</strong>
+              <strong><i class="fa fa-pencil margin-r-5"></i> Habilidades</strong>
 
               <p>
-                <span class="label label-danger">UI Design</span>
-                <span class="label label-success">Coding</span>
-                <span class="label label-info">Javascript</span>
-                <span class="label label-warning">PHP</span>
-                <span class="label label-primary">Node.js</span>
+                <span class="label label-danger">Diseño</span>
+                <span class="label label-success">Planeación</span>
+                <span class="label label-info">Coach</span>
+                <span class="label label-warning">Graficas</span>
+                <span class="label label-primary">Administración</span>
               </p>
 
               <hr>
 
-              <strong><i class="fa fa-file-text-o margin-r-5"></i> Notes</strong>
+              <strong><i class="fa fa-file-text-o margin-r-5"></i> Notas</strong>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
+              <p>Llegaremos a la meta con esfuerzo y disciplina.</p>
             </div>
             <!-- /.box-body -->
           </div>
@@ -264,16 +264,16 @@ if(!isset($_SESSION['usuario']))
     <div class="tab-content">
       <!-- Home tab content -->
       <div class="tab-pane" id="control-sidebar-home-tab">
-        <h3 class="control-sidebar-heading">Recent Activity</h3>
+        <h3 class="control-sidebar-heading">Actividad Reciente/h3>
         <ul class="control-sidebar-menu">
           <li>
             <a href="javascript:void(0)">
               <i class="menu-icon fa fa-birthday-cake bg-red"></i>
 
               <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
+                <h4 class="control-sidebar-subheading">Cumpleaños</h4>
 
-                <p>Will be 23 on April 24th</p>
+                <p>26 de diciembre</p>
               </div>
             </a>
           </li>
