@@ -2253,12 +2253,12 @@ a:focus {
 }
 .btn-primary {
   background-color: #e6e925;
-  border-color: #fbea49;
+  border-color: #d9c721;
 }
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary.hover {
-  background-color: #fbea49;
+  background-color: #d9c721;
 }
 .btn-success {
   background-color: #00a65a;
@@ -4290,7 +4290,7 @@ table.text-center th {
 }
 .select2-container--default .select2-selection--multiple .select2-selection__choice {
   background-color: #e6e925;
-  border-color: #fbea49;
+  border-color: #d9c721;
   padding: 1px 10px;
   color: #fff;
 }

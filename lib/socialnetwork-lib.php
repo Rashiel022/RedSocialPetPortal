@@ -143,7 +143,7 @@ function Side ()
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
-      <!-- search form -->
+      <!-- formulario de busqueda -->
       <form action="#" method="get" class="sidebar-form">
         <div class="input-group">
           <input type="text" name="q" class="form-control" placeholder="Encuentra a tus amigos">
@@ -153,8 +153,8 @@ function Side ()
               </span>
         </div>
       </form>
-      <!-- /.search form -->
-      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <!-- /.Aqui termina el formulario de busqueda -->
+      <!-- Menu de la barra lateral: l estilo sepuede encontrar en sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">MENÚ DE NAVEGACIÓN</li>
         <li>
